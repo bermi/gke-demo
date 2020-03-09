@@ -143,7 +143,7 @@ steps:
             exit 1
           fi
           tries=$((tries+1))
-          sleep 2
+          sleep 5
         done
         ip="$(kubectl get services -n hipstershop frontend-external \
             -o custom-columns=IP:.status.loadBalancer.ingress[0].ip --no-headers)"
@@ -155,7 +155,7 @@ steps:
             exit 1
           fi
           tries=$((tries+1))
-          sleep 2
+          sleep 4
         done
 
   - id: "[staging] Destroy applications"
