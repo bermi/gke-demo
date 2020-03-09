@@ -69,7 +69,7 @@ steps:
         for app in $(cat /config/apps); do
           executor --context=third-party/microservices/src/$$app \
             --destination=gcr.io/$PROJECT_ID/$$app:$SHORT_SHA \
-            --cache=false --single-snapshot
+            --cache=true
         done
 
   - id: Decrypt ssh private key
