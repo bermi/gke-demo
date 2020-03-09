@@ -14,34 +14,34 @@ patches:
 images:
 - name: adservice
   newName: gcr.io/gke-demo-2bermi/adservice
-  newTag: 9b3170b
+  newTag: 43b6eb2
 - name: cartservice
   newName: gcr.io/gke-demo-2bermi/cartservice
-  newTag: 9b3170b
+  newTag: 43b6eb2
 - name: checkoutservice
   newName: gcr.io/gke-demo-2bermi/checkoutservice
-  newTag: 9b3170b
+  newTag: 43b6eb2
 - name: currencyservice
   newName: gcr.io/gke-demo-2bermi/currencyservice
-  newTag: 9b3170b
+  newTag: 43b6eb2
 - name: emailservice
   newName: gcr.io/gke-demo-2bermi/emailservice
-  newTag: 9b3170b
+  newTag: 43b6eb2
 - name: frontend
   newName: gcr.io/gke-demo-2bermi/frontend
-  newTag: 9b3170b
+  newTag: 43b6eb2
 - name: paymentservice
   newName: gcr.io/gke-demo-2bermi/paymentservice
-  newTag: 9b3170b
+  newTag: 43b6eb2
 - name: productcatalogservice
   newName: gcr.io/gke-demo-2bermi/productcatalogservice
-  newTag: 9b3170b
+  newTag: 43b6eb2
 - name: recommendationservice
   newName: gcr.io/gke-demo-2bermi/recommendationservice
-  newTag: 9b3170b
+  newTag: 43b6eb2
 - name: redis
   newName: redis
   newTag: 5.0.7-alpine3.11
 - name: shippingservice
   newName: gcr.io/gke-demo-2bermi/shippingservice
-  newTag: 9b3170b
+  newTag: 43b6eb2
